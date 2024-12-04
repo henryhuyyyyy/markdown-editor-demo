@@ -1,0 +1,12 @@
+
+/* Make sure "Preview" style and "Editor" style are same */
+.preview {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.preview-scroll {
+    overflow: auto;
+    flex-grow: 1;
+}

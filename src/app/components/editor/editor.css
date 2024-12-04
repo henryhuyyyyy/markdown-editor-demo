@@ -1,0 +1,18 @@
+/* Make sure "Preview" style and "Editor" style are same */
+.editor_wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+  
+.editor-background {
+    width: 100%;
+    flex-grow: 1;
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    appearance: none;
+    background: none;
+    resize: none;
+}
